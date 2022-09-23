@@ -1,0 +1,91 @@
+public class cta {
+   public static final aba<csz> a = a("base");
+   public static final aba<csz> b = a("square_bottom_left");
+   public static final aba<csz> c = a("square_bottom_right");
+   public static final aba<csz> d = a("square_top_left");
+   public static final aba<csz> e = a("square_top_right");
+   public static final aba<csz> f = a("stripe_bottom");
+   public static final aba<csz> g = a("stripe_top");
+   public static final aba<csz> h = a("stripe_left");
+   public static final aba<csz> i = a("stripe_right");
+   public static final aba<csz> j = a("stripe_center");
+   public static final aba<csz> k = a("stripe_middle");
+   public static final aba<csz> l = a("stripe_downright");
+   public static final aba<csz> m = a("stripe_downleft");
+   public static final aba<csz> n = a("small_stripes");
+   public static final aba<csz> o = a("cross");
+   public static final aba<csz> p = a("straight_cross");
+   public static final aba<csz> q = a("triangle_bottom");
+   public static final aba<csz> r = a("triangle_top");
+   public static final aba<csz> s = a("triangles_bottom");
+   public static final aba<csz> t = a("triangles_top");
+   public static final aba<csz> u = a("diagonal_left");
+   public static final aba<csz> v = a("diagonal_up_right");
+   public static final aba<csz> w = a("diagonal_up_left");
+   public static final aba<csz> x = a("diagonal_right");
+   public static final aba<csz> y = a("circle");
+   public static final aba<csz> z = a("rhombus");
+   public static final aba<csz> A = a("half_vertical");
+   public static final aba<csz> B = a("half_horizontal");
+   public static final aba<csz> C = a("half_vertical_right");
+   public static final aba<csz> D = a("half_horizontal_bottom");
+   public static final aba<csz> E = a("border");
+   public static final aba<csz> F = a("curly_border");
+   public static final aba<csz> G = a("gradient");
+   public static final aba<csz> H = a("gradient_up");
+   public static final aba<csz> I = a("bricks");
+   public static final aba<csz> J = a("globe");
+   public static final aba<csz> K = a("creeper");
+   public static final aba<csz> L = a("skull");
+   public static final aba<csz> M = a("flower");
+   public static final aba<csz> N = a("mojang");
+   public static final aba<csz> O = a("piglin");
+
+   private static aba<csz> a(String $$0) {
+      return aba.a(hm.bN, new abb($$0));
+   }
+
+   public static csz a(hm<csz> $$0) {
+      hm.a($$0, a, new csz("b"));
+      hm.a($$0, b, new csz("bl"));
+      hm.a($$0, c, new csz("br"));
+      hm.a($$0, d, new csz("tl"));
+      hm.a($$0, e, new csz("tr"));
+      hm.a($$0, f, new csz("bs"));
+      hm.a($$0, g, new csz("ts"));
+      hm.a($$0, h, new csz("ls"));
+      hm.a($$0, i, new csz("rs"));
+      hm.a($$0, j, new csz("cs"));
+      hm.a($$0, k, new csz("ms"));
+      hm.a($$0, l, new csz("drs"));
+      hm.a($$0, m, new csz("dls"));
+      hm.a($$0, n, new csz("ss"));
+      hm.a($$0, o, new csz("cr"));
+      hm.a($$0, p, new csz("sc"));
+      hm.a($$0, q, new csz("bt"));
+      hm.a($$0, r, new csz("tt"));
+      hm.a($$0, s, new csz("bts"));
+      hm.a($$0, t, new csz("tts"));
+      hm.a($$0, u, new csz("ld"));
+      hm.a($$0, v, new csz("rd"));
+      hm.a($$0, w, new csz("lud"));
+      hm.a($$0, x, new csz("rud"));
+      hm.a($$0, y, new csz("mc"));
+      hm.a($$0, z, new csz("mr"));
+      hm.a($$0, A, new csz("vh"));
+      hm.a($$0, B, new csz("hh"));
+      hm.a($$0, C, new csz("vhr"));
+      hm.a($$0, D, new csz("hhb"));
+      hm.a($$0, E, new csz("bo"));
+      hm.a($$0, F, new csz("cbo"));
+      hm.a($$0, G, new csz("gra"));
+      hm.a($$0, H, new csz("gru"));
+      hm.a($$0, I, new csz("bri"));
+      hm.a($$0, J, new csz("glb"));
+      hm.a($$0, K, new csz("cre"));
+      hm.a($$0, L, new csz("sku"));
+      hm.a($$0, M, new csz("flo"));
+      hm.a($$0, N, new csz("moj"));
+      return hm.a($$0, O, new csz("pig"));
+   }
+}

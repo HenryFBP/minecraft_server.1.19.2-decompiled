@@ -1,0 +1,97 @@
+public class akg {
+   public static final akf<cjt> a = a("mined", hm.V);
+   public static final akf<cat> b = a("crafted", hm.Y);
+   public static final akf<cat> c = a("used", hm.Y);
+   public static final akf<cat> d = a("broken", hm.Y);
+   public static final akf<cat> e = a("picked_up", hm.Y);
+   public static final akf<cat> f = a("dropped", hm.Y);
+   public static final akf<bbr<?>> g = a("killed", hm.X);
+   public static final akf<bbr<?>> h = a("killed_by", hm.X);
+   public static final akf<abb> i = a("custom", hm.ad);
+   public static final abb j = a("leave_game", ake.b);
+   public static final abb k = a("play_time", ake.e);
+   public static final abb l = a("total_world_time", ake.e);
+   public static final abb m = a("time_since_death", ake.e);
+   public static final abb n = a("time_since_rest", ake.e);
+   public static final abb o = a("sneak_time", ake.e);
+   public static final abb p = a("walk_one_cm", ake.d);
+   public static final abb q = a("crouch_one_cm", ake.d);
+   public static final abb r = a("sprint_one_cm", ake.d);
+   public static final abb s = a("walk_on_water_one_cm", ake.d);
+   public static final abb t = a("fall_one_cm", ake.d);
+   public static final abb u = a("climb_one_cm", ake.d);
+   public static final abb v = a("fly_one_cm", ake.d);
+   public static final abb w = a("walk_under_water_one_cm", ake.d);
+   public static final abb x = a("minecart_one_cm", ake.d);
+   public static final abb y = a("boat_one_cm", ake.d);
+   public static final abb z = a("pig_one_cm", ake.d);
+   public static final abb A = a("horse_one_cm", ake.d);
+   public static final abb B = a("aviate_one_cm", ake.d);
+   public static final abb C = a("swim_one_cm", ake.d);
+   public static final abb D = a("strider_one_cm", ake.d);
+   public static final abb E = a("jump", ake.b);
+   public static final abb F = a("drop", ake.b);
+   public static final abb G = a("damage_dealt", ake.c);
+   public static final abb H = a("damage_dealt_absorbed", ake.c);
+   public static final abb I = a("damage_dealt_resisted", ake.c);
+   public static final abb J = a("damage_taken", ake.c);
+   public static final abb K = a("damage_blocked_by_shield", ake.c);
+   public static final abb L = a("damage_absorbed", ake.c);
+   public static final abb M = a("damage_resisted", ake.c);
+   public static final abb N = a("deaths", ake.b);
+   public static final abb O = a("mob_kills", ake.b);
+   public static final abb P = a("animals_bred", ake.b);
+   public static final abb Q = a("player_kills", ake.b);
+   public static final abb R = a("fish_caught", ake.b);
+   public static final abb S = a("talked_to_villager", ake.b);
+   public static final abb T = a("traded_with_villager", ake.b);
+   public static final abb U = a("eat_cake_slice", ake.b);
+   public static final abb V = a("fill_cauldron", ake.b);
+   public static final abb W = a("use_cauldron", ake.b);
+   public static final abb X = a("clean_armor", ake.b);
+   public static final abb Y = a("clean_banner", ake.b);
+   public static final abb Z = a("clean_shulker_box", ake.b);
+   public static final abb aa = a("interact_with_brewingstand", ake.b);
+   public static final abb ab = a("interact_with_beacon", ake.b);
+   public static final abb ac = a("inspect_dropper", ake.b);
+   public static final abb ad = a("inspect_hopper", ake.b);
+   public static final abb ae = a("inspect_dispenser", ake.b);
+   public static final abb af = a("play_noteblock", ake.b);
+   public static final abb ag = a("tune_noteblock", ake.b);
+   public static final abb ah = a("pot_flower", ake.b);
+   public static final abb ai = a("trigger_trapped_chest", ake.b);
+   public static final abb aj = a("open_enderchest", ake.b);
+   public static final abb ak = a("enchant_item", ake.b);
+   public static final abb al = a("play_record", ake.b);
+   public static final abb am = a("interact_with_furnace", ake.b);
+   public static final abb an = a("interact_with_crafting_table", ake.b);
+   public static final abb ao = a("open_chest", ake.b);
+   public static final abb ap = a("sleep_in_bed", ake.b);
+   public static final abb aq = a("open_shulker_box", ake.b);
+   public static final abb ar = a("open_barrel", ake.b);
+   public static final abb as = a("interact_with_blast_furnace", ake.b);
+   public static final abb at = a("interact_with_smoker", ake.b);
+   public static final abb au = a("interact_with_lectern", ake.b);
+   public static final abb av = a("interact_with_campfire", ake.b);
+   public static final abb aw = a("interact_with_cartography_table", ake.b);
+   public static final abb ax = a("interact_with_loom", ake.b);
+   public static final abb ay = a("interact_with_stonecutter", ake.b);
+   public static final abb az = a("bell_ring", ake.b);
+   public static final abb aA = a("raid_trigger", ake.b);
+   public static final abb aB = a("raid_win", ake.b);
+   public static final abb aC = a("interact_with_anvil", ake.b);
+   public static final abb aD = a("interact_with_grindstone", ake.b);
+   public static final abb aE = a("target_hit", ake.b);
+   public static final abb aF = a("interact_with_smithing_table", ake.b);
+
+   private static abb a(String $$0, ake $$1) {
+      abb $$2 = new abb($$0);
+      hm.a(hm.ad, $$0, $$2);
+      i.a($$2, $$1);
+      return $$2;
+   }
+
+   private static <T> akf<T> a(String $$0, hm<T> $$1) {
+      return hm.a(hm.an, $$0, new akf<>($$1));
+   }
+}
